@@ -1,0 +1,14 @@
+:root{
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --dark-gayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --soft-pink:  hsl(333, 80%, 67%);
+    --white: hsl(0, 0%, 100%);
+
+    --body-size: 15px;
+    --body-family: 'League Spartan', sans-serif;
+    --font-light: 400;
+    --font-medium: 500;
+    --font-bold: 700;
+
+}
