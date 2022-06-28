@@ -14,3 +14,88 @@ body{
     text-align: center;
     margin-inline: 1rem;
 }
+
+.avaliations__title{
+    color: var(--very-dark-magenta);
+    font-weight: var(--font-bold);
+    font-size: 2.5rem;
+}
+
+@media screen and (min-width: 1440px) {
+
+    .container{
+        background-image: url(/assets/images/bg-pattern-bottom-desktop.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .social-proof{
+        padding-block: 101px;
+        padding-inline: 142px;
+        position:relative;
+    }
+    .avaliations__header{
+    width: 30%;
+    position: absolute;
+    text-align: start;
+}
+
+.avaliations__title{
+    display: flex;
+    position: relative;
+    width: 80%;
+    margin-bottom: 30px;
+    font-size: 48px;
+}
+
+.rated__stars{
+    width: 60%;
+position: relative;
+right: 100px;
+left: 60%;}
+
+.rated__container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 0;
+    width: 25rem;
+    margin-bottom: 1rem;
+}
+.cards{
+    display: flex;
+    gap: 27px;
+    margin-top: 110px;
+}
+
+.stars{
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+.margin__card{
+    margin-top: 15px;
+}
+
+.margin__card__second{
+    margin-top: 30px;
+}
+
+.rated__margin{
+    position: relative;
+    right: 76px;
+}
+
+.rated__margin__second{
+    right: 30px;
+    position: relative;
+}
+
+.avaliation__card__content__text{
+    width: 270px;
+}
+
+
+}

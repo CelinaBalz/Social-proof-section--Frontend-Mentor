@@ -50,8 +50,6 @@
 
 .avaliation__card__content__text{
     line-height: 1.5;
-    width: 240px;
-    height: 100px;
 }
 
 .avaliation__card__content__title{
@@ -65,4 +63,11 @@
 
 .avaliation__card__content__subtitle{
     color: var(--soft-pink);
+}
+
+@media screen and (width: 375px) {
+    .avaliation__card__content__text{
+        width: 240px;
+        height: 100px;
+    }
 }
