@@ -1,0 +1,16 @@
+.avaliations__title{
+    color: var(--very-dark-magenta);
+    font-weight: var(--font-bold);
+    font-size: 2.5rem;
+    padding-block-start: 4rem;
+    padding-block-end: 1rem;
+
+}
+
+.avaliation__subtitle{
+    color: var(--dark-gayish-magenta);
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}

@@ -1,0 +1,18 @@
+.rated__container{
+    background-color: var(--light-grayish-magenta);
+    color: var(--very-dark-magenta);
+    font-weight: var(--font-bold);
+    margin-block: 1rem;
+    padding-block-end: 0.7rem;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.stars{
+    padding-block: 0.9rem;
+}
+
+.rated__stars{
+    margin-bottom: 3.125rem;
+}

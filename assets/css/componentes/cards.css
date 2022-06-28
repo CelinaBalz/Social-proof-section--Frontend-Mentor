@@ -1,0 +1,68 @@
+.avaliation__card{
+    background-color: var(--very-dark-magenta);
+    color: var(--white);
+    font-weight: var(--font-medium);
+
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.avaliation__card__content__header{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 2 ;
+    width: 50%;
+    height: 3.75rem;
+}
+
+
+.avaliation__card__content__img{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    grid-column: 1 / 1;
+    grid-row: 1 / 2;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#colton{
+    background-image: url(/assets/images/image-colton.jpg);
+}
+
+#irene{
+    background-image: url(/assets/images/image-irene.jpg);
+}
+
+#anne{
+    background-image: url(/assets/images/image-anne.jpg);
+}
+
+
+.avaliation__card__content{
+    padding-inline: 30px;
+    padding-block: 38px;
+}
+
+.avaliation__card__content__text{
+    line-height: 1.5;
+    width: 240px;
+    height: 100px;
+}
+
+.avaliation__card__content__title{
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+    height: 60px;
+    width: 100px;
+    padding-left: 18px;
+    line-height: 1.5;
+}
+
+.avaliation__card__content__subtitle{
+    color: var(--soft-pink);
+}

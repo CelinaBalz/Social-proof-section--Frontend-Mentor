@@ -1,0 +1,16 @@
+body{
+    font-family: var(--body-family);
+    font-size: var(--body-size);
+    background-image: url(/assets/images/bg-pattern-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-inline: 1rem;
+}
